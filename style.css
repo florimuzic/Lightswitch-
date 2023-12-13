@@ -1,0 +1,123 @@
+/* Variables */
+/**/
+/* Reset */
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.025s;
+}
+
+/* Generic */
+body {
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-image: radial-gradient(circle, #C6C6CE, #D6D6DE);
+  width: 100%;
+  height: 100vh;
+}
+
+.switch {
+  position: relative;
+  width: 370px;
+  height: 280px;
+  border-radius: 50px;
+  background-image: linear-gradient(to top, #D5BFBD 30%, #FFFFFF);
+  box-shadow: 0 10px 15px #98849b;
+  z-index: 1000;
+  cursor: pointer;
+}
+.switch__g {
+  width: 360px;
+  height: 270px;
+  background-color: #E7E7E7;
+  border-radius: 44px;
+}
+.switch__button {
+  flex-direction: column;
+  width: 210px;
+  height: 150px;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, #D5BFBD 50%, #FFFFFF);
+  border: 1px solid #BDB5BD;
+}
+.switch__tap {
+  position: relative;
+  width: 204px;
+  height: 126px;
+  background-color: #ECECEC;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #b4b4b4;
+  z-index: 100;
+}
+.switch__led {
+  position: relative;
+  width: 204px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #D5BFBD;
+}
+.switch__led-i {
+  width: 25px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #40CE98;
+}
+
+.shadow {
+  position: absolute;
+  top: 50%;
+  width: 370px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, #98849b, rgba(152, 132, 155, 0));
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 25px;
+}
+
+/* Modificadore */
+.m-night {
+  background-image: radial-gradient(circle, #032234, #000f18);
+}
+
+.s-night {
+  background-image: linear-gradient(to top, #8A4B90, #416491 40%, #416491 85%, #9EC6B8);
+  box-shadow: 0 10px 15px #000f18;
+}
+
+.g-night {
+  background-image: linear-gradient(to bottom, #487492, #564A91 90%);
+}
+
+.b-night {
+  background-image: linear-gradient(to top, #8A4B90, #416491 40%, #416491 50%, #d5e6e0);
+  border: 1px solid #19265C;
+  flex-direction: column-reverse;
+  box-shadow: inset 0 4px 5px #416491;
+}
+
+.t-night {
+  background-image: linear-gradient(to top, #4D5B91, #474A81 30%, #474A81 85%, #675489);
+  box-shadow: none;
+}
+
+.l-night {
+  background-color: #9EC6B8;
+  background: none;
+}
+
+.li-night {
+  background-image: linear-gradient(to top, #D27B91, #c55571);
+}
+
+.sh-night {
+  background-image: linear-gradient(to bottom, #000f18, rgba(0, 15, 24, 0) 85%);
+  height: 225px;
+}
